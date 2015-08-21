@@ -54,8 +54,8 @@ cacheSolve <- function(x, ...) {
       if(!is.null(inv)) {
             message("getting cached data")
             return(inv)
-            # If 'inv' has been calculated, return its value
-            # 'return' ensures an early exit of the function 
+            ## If 'inv' has been calculated, return its value
+            ## 'return' ensures an early exit of the function 
       }
       data <- x$get()
       ## 'data' contains the matrix passed to the makeCacheMatrix function
